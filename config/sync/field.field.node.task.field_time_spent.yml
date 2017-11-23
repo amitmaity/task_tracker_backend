@@ -1,0 +1,23 @@
+uuid: 11a034b1-c4e0-44f3-b21b-7215998d977d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_spent
+    - node.type.task
+id: node.task.field_time_spent
+field_name: field_time_spent
+entity_type: node
+bundle: task
+label: 'Time Spent'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,14 @@
+uuid: 1d381ae9-5265-49ad-9510-a8cd2f7d3d70
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.overseer
+  module:
+    - user
+id: user_remove_role_action.overseer
+label: 'Remove the Overseer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: overseer
