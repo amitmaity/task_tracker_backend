@@ -12,11 +12,11 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: Active
-      label: Active
+      value: Pending
+      label: Pending
     -
-      value: Inactive
-      label: Inactive
+      value: Ongoing
+      label: Ongoing
     -
       value: Completed
       label: Completed

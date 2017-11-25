@@ -13,6 +13,8 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'create task content'
+  - 'edit own task content'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
